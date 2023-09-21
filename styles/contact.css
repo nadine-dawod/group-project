@@ -8,3 +8,8 @@ footer {
     background-color: rgb(55, 131, 202 0.4);
 
 }
+
+.nav__logo {
+    position: relative;
+    left: 50px;
+}
