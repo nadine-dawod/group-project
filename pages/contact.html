@@ -15,10 +15,24 @@
     
     <main>
 
+        <div class="photo-section__img">
+            <img src="/images/contactpage.jpeg" alt="fried fish and eggplant on cutting board">
+        </div>
 
+        <div class="contact-form">
+            <form name="contact-form">
+                <label class="contact-form__label name" for="name">Name</label>
+                <input type="text" id="name">
 
-        
+                <label class="contact-form__label email" for="email">Email</label>
+                <input type="email" id="email">
 
+                <label class="contact-form__label text" for="message">Message</label>
+                <textarea id="message" name="text" cols="50" rows="20"></textarea>
+            
+                <button class="form__btn--submit" form="contact-form" type="submit">SEND</button>
+            </form>
+        </div>
 
     </main>
 
