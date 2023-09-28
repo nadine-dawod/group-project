@@ -1,1 +1,17 @@
-/* bla blhskjhsdhfdsnfsdöakökas Mvh Maria */
+body {
+    max-width: 1440px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
+
+header {
+    display: flex;
+    background-color: #3783ca;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: flex;
+    
+}
