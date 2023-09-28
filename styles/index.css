@@ -6,12 +6,21 @@ body {
 }
 
 header {
-    display: flex;
+    min-height: 50px;
     background-color: #3783ca;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .header__nav {
-    display: flex;
-    justify-content: flex;
+   
+}
+
+.header__nav__list { /* --- UL-list -----*/
     
+}
+
+.header__logo {
+    width: 20%;
 }
