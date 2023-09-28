@@ -5,23 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&family=Vollkorn&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
 <!------------ HEADER ------------>
-    <header> 
-       <!--<div>
-            <img class="header__logo" src="images/logo_bass.png" alt="bass fish logo">
-        </div>-->
-        <div class="header__nav">
-            <nav class="nav">
+    <header>       
+        <svg class="header__logo">
+            <use class="header__logo__fishhand" xlink:href="images/logo-fishhand.svg#logo-fishhand" alt="logo"></use>
+        </svg>
+        <nav class="header__nav__list">
+            <a class="header__nav__list__menu" href="pages/menu.html" target="_blank">MENU & FOOD GALLERY</a>                   
+            <a class="header__nav__list__foodstory" href="pages/food-story.html" target="_blank">OUR FOOD STORY</a>
+            <a class="header__nav__list__contact" href="pages/contact.html" target="_blank">BOOK A TABLE OR CONTACT US</a>  
+        </nav>            
+    </header>
+
+<!--
+    <header>  
+        <div class="header__logo">     
+            <svg>
+                <use class="header__logo__fishhand" xlink:href="images/logo-fishhand.svg#logo-fishhand" alt="logo"></use>
+            </svg>
+        </div>
+        <div class="header__nav__list">
+            <nav>
                 <a class="header__nav__list__menu" href="pages/menu.html" target="_blank">MENU & FOOD GALLERY</a>                   
                 <a class="header__nav__list__foodstory" href="pages/food-story.html" target="_blank">OUR FOOD STORY</a>
                 <a class="header__nav__list__contact" href="pages/contact.html" target="_blank">BOOK A TABLE OR CONTACT US</a>  
-            </nav>       
-        </div>     
+            </nav> 
+        </div>           
     </header>
+-->
     
 </body>
 

@@ -5,22 +5,32 @@ body {
     margin: auto;
 }
 
+/* ======= HEADER: PLACEMENT/SIZE/GENERAL STYLING ======*/
 header {
-    min-height: 50px;
-    background-color: #3783ca;
+    min-height: 100px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(55, 131, 202, 0.7);
+    display: flex;
+}
+
+.header__nav__list {
+    font-family: 'Lilita One', cursive;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__nav__list__menu, .header__nav__list__foodstory, .header__nav__list__contact {
+    color: rgb(0, 0, 0);
+    padding: 20px;
     display: flex;
     justify-content: flex-end;
-    
 }
 
-.header__nav {
-   
-}
-
-.header__nav__list { /* --- UL-list -----*/
-    
-}
 
 .header__logo {
-    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
