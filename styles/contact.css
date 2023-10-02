@@ -1,19 +1,52 @@
-.photo-section__img {
+main {
+    max-width: 1200px;
+    width: 100%;
+    max-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 
+}
+
+img {
+    width: 600px;
+    height: 400px
+}
+
+.photo-section__img {
+    display: flex;
+    justify-content: center;
 }
 
 
 .contact-form {
+    display: flex;
+    justify-content: center;
+}
 
+textarea,
+input {
+    max-width: 300px;
+    width: 100%;
+    margin: 10px;
+    outline: none;
+    resize: none;
+    border-bottom: 1px solid black;
+}
+
+textarea::placeholder {
+    font-family: 'Vollkorn', serif;
+}
+
+textarea:focus {
+}
+
+input::placeholder {
+    font-family: 'Vollkorn', serif;
 }
 
 
 .form__btn--submit {
 
 
-}
-
-.contact-form__label {
-
-    
 }

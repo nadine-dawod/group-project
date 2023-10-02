@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/contact.css">
     <title>Contact Us</title>
 </head>
 <body>
-    <header>
-        
-
-    </header>
     
     
     <main>
@@ -21,15 +18,9 @@
 
         <div class="contact-form">
             <form name="contact-form">
-                <label class="contact-form__label name" for="name">Name</label>
-                <input type="text" id="name">
-
-                <label class="contact-form__label email" for="email">Email</label>
-                <input type="email" id="email">
-
-                <label class="contact-form__label text" for="message">Message</label>
-                <textarea id="message" name="text" cols="50" rows="20"></textarea>
-            
+                <div class="contact-form__name"><input type="text" placeholder="Name"></div>
+                <div class="contact-form__email"><input type="email" placeholder="E-mail"></div>
+                <div class="contact-form__message"><textarea name="text" cols="50" rows="20" placeholder="Message"></textarea></div>
                 <button class="form__btn--submit" form="contact-form" type="submit">SEND</button>
             </form>
         </div>
@@ -37,9 +28,6 @@
     </main>
 
 
-    <footer>
 
-
-    </footer>
 </body>
 </html>
