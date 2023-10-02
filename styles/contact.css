@@ -3,9 +3,8 @@ main {
     width: 100%;
     max-height: 100vh;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-
+/*     display: flex;
+    flex-direction: column; */
 }
 
 img {
@@ -26,27 +25,43 @@ img {
 
 textarea,
 input {
-    max-width: 300px;
+    max-width: 400px;
     width: 100%;
     margin: 10px;
     outline: none;
-    resize: none;
-    border-bottom: 1px solid black;
 }
 
-textarea::placeholder {
+textarea:focus, input:focus {
+    outline: none;
+}
+
+textarea:hover, input:hover, button:hover {
+    border-color: rgb(55, 131, 202, 0.4);
+    cursor: auto;
+}
+
+textarea:active, input:active, button:active {
+    background-color: rgb(55, 131, 202, 0.4);
+    border: none;
+    cursor: auto;
+}
+
+input::placeholder, textarea::placeholder {
     font-family: 'Vollkorn', serif;
+    color: rgb(55, 131, 202, 0.7);
+    font-size: 18px;
 }
 
-textarea:focus {
-}
 
-input::placeholder {
+button {
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0, 0.7);
+    border-radius: 5px;
+    position: relative;
+        bottom: 40px;
     font-family: 'Vollkorn', serif;
-}
-
-
-.form__btn--submit {
-
-
+    color: rgb(55, 131, 202, 0.7);
+    font-size: 18px;
 }
