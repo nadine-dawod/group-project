@@ -12,25 +12,17 @@ header {
     padding: 20px;
     background-color: rgba(55, 131, 202, 0.7);
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__nav__list {
     font-family: 'Lilita One', cursive;
+    list-style-type: none;
     display: flex;
-    align-items: center;
-    
 }
 
-.header__nav__list__menu, .header__nav__list__foodstory, .header__nav__list__contact {
+.header__nav__list__item {
     color: rgb(0, 0, 0);
     padding: 20px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-.header__logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
 }
