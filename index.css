@@ -44,7 +44,7 @@ footer {
     align-items: center;
 }
 
-.footer-left {
+.footer__address-sec {
     height: 80px;
     width: 300px;
     border: 1px solid #fff;
@@ -56,28 +56,31 @@ footer {
 
  }
 
-.contact-info {
+.footer__address-sec__text {
     font-size: 14px;
     text-align: center;
     line-height: 2;
     color: black;
 }
 
-.footer-right {
-        display: flex;
-        justify-self: center;
-        flex-direction: column;
-        color: black;
-        font-weight: bold;
-        font-family: 'Noto Sans', sans-serif;
+.footer__news-form {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
 }
 
-label {
+.footer__heading{
+    color: black;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer__news-form__label--email {
     margin-right: 10px;
     font-size: 14px;   
 }
 
-input[type="email"] {
+.footer__news-form__input--email[type="email"] {
     height: 30px;
     width: 200px;
     padding: 5px;
@@ -86,16 +89,24 @@ input[type="email"] {
     font-size: 14px;
 }
 
-button[type="submit"] {
+.footer__news-form__btn--send[type="submit"] {
     border: 1px solid #444;
     color: black;
     padding: 3px 8px;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 14px;   
+    font-size: 14px;  
+    background-color: rgba(55, 131, 202, 0.4);
 }
 
-button[type="submit"]:hover {
-    background-color: rgba(55, 131, 202, 0.4); 
+.footer__news-form__btn--send[type="submit"]:hover {
+    background-color: none;
+    border: 1px solid  rgba(55, 131, 202, 0.4);
+    cursor: auto; 
+}
+
+.footer__news-form__btn--send[type="submit"]:active {
+    background-color: rgba(55, 131, 202, 0.4);
     border: none;
+    cursor: auto; 
 }

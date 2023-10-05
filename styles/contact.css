@@ -1,5 +1,4 @@
-
-main {1 conflict 
+main {
     max-width: 1200px;
     width: 100%;
     max-height: 100vh;
@@ -61,9 +60,86 @@ button {
     border: 1px solid rgb(0, 0, 0, 0.7);
     border-radius: 5px;
     position: relative;
-        bottom: 40px;
-    font-family: 'Vollkorn', serif;
-    color: rgb(55, 131, 202, 0.7);
-    font-size: 18px;
+    left: 50px;
 }
 
+
+/* Footer Styles */
+footer {
+    max-width: 1500px;
+    width: 100%;
+    min-height: 100px;
+    margin: auto;
+    background-color: rgba(55, 131, 202, 0.4);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__address-sec {
+    height: 80px;
+    width: 300px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.footer__address-sec__text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+    color: rgba(000, 000, 000);
+}
+
+.footer__news-form {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.footer__heading{
+    color: rgba(000, 000, 000);
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer__news-form__label--email {
+    margin-right: 10px;
+    font-size: 14px;   
+}
+
+.footer__news-form__input--email[type="email"] {
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.footer__news-form__btn--send[type="submit"] {
+    border: 1px solid #444;
+    color: rgba(000, 000, 000);
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;  
+    background-color: rgba(55, 131, 202, 0.4);
+}
+
+.footer__news-form__btn--send[type="submit"]:hover {
+    background-color: none;
+    border: 1px solid  rgba(55, 131, 202, 0.4);
+    cursor: auto; 
+}
+
+.footer__news-form__btn--send[type="submit"]:active {
+    background-color: rgba(55, 131, 202, 0.4);
+    border: none;
+    cursor: auto; 
+}
