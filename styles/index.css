@@ -1,0 +1,28 @@
+body {
+    max-width: 1440px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
+
+/* ======= HEADER: PLACEMENT/SIZE/GENERAL STYLING ======*/
+header {
+    min-height: 100px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(55, 131, 202, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav__list {
+    font-family: 'Lilita One', cursive;
+    list-style-type: none;
+    display: flex;
+}
+
+.header__nav__list__item {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
