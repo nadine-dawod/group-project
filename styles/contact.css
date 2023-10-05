@@ -1,15 +1,64 @@
-header {
-    background-color: rgb(55, 131, 202 0.7);
-    
-
+main {
+    max-width: 1200px;
+    width: 100%;
+    max-height: 100vh;
+    height: 100%;
+/*     display: flex;
+    flex-direction: column; */
 }
 
-footer {
-    background-color: rgb(55, 131, 202 0.4);
-
+img {
+    width: 600px;
+    height: 400px
 }
 
-.nav__logo {
+.photo-section__img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+textarea,
+input {
+    max-width: 400px;
+    width: 100%;
+    margin: 10px;
+    outline: none;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+textarea:hover, input:hover, button:hover {
+    border-color: rgb(55, 131, 202, 0.4);
+    cursor: auto;
+}
+
+textarea:active, input:active, button:active {
+    background-color: rgb(55, 131, 202, 0.4);
+    border: none;
+    cursor: auto;
+}
+
+input::placeholder, textarea::placeholder {
+    font-family: 'Vollkorn', serif;
+    color: rgb(55, 131, 202, 0.7);
+    font-size: 18px;
+}
+
+
+button {
+    width: 125px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0, 0.7);
+    border-radius: 5px;
     position: relative;
     left: 50px;
 }
@@ -38,14 +87,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
  }
 
 .footer__address-sec__text {
     font-size: 14px;
     text-align: center;
     line-height: 2;
-    color: black;
+    color: rgba(000, 000, 000);
 }
 
 .footer__news-form {
@@ -55,7 +103,7 @@ footer {
 }
 
 .footer__heading{
-    color: black;
+    color: rgba(000, 000, 000);
     font-weight: bold;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -76,7 +124,7 @@ footer {
 
 .footer__news-form__btn--send[type="submit"] {
     border: 1px solid #444;
-    color: black;
+    color: rgba(000, 000, 000);
     padding: 3px 8px;
     border-radius: 3px;
     cursor: pointer;
