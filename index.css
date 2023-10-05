@@ -1,0 +1,101 @@
+/* bla blhskjhsdhfdsnfsdöakökas Mvh Maria */
+
+body {
+    max-width: 1500px;
+    width: 100%;
+    min-height: 100px;
+    margin: auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+/* can be delete anytime */
+.container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    background-color: #dbd9d9;
+    text-align: center;
+    color: orangered;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} /* can be delete anytime */
+
+
+/* Footer Styles */
+footer {
+    max-width: 1500px;
+    width: 100%;
+    min-height: 100px;
+    margin: auto;
+    background-color: rgba(55, 131, 202, 0.4);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-left {
+    height: 80px;
+    width: 300px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.contact-info {
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+    color: black;
+}
+
+.footer-right {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        color: black;
+        font-weight: bold;
+        font-family: 'Noto Sans', sans-serif;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 14px;   
+}
+
+input[type="email"] {
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    border: 1px solid #444;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;   
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(55, 131, 202, 0.4); 
+    border: none;
+}
