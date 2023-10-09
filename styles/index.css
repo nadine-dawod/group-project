@@ -26,3 +26,20 @@ header {
     color: rgb(0, 0, 0);
     padding: 20px;
 }
+
+
+/* ======= LANDINGPAGE: PLACEMENT/SIZE/GENERAL STYLING ======*/
+
+main {
+    display: flex;
+
+}
+
+.cards__card1, .cards__card2, .cards__card3 {
+    background-color: aqua;
+    width: 400px;
+    border: solid 4px black;
+    padding 5px;
+    margin: 10px;
+    text-align: center;
+}
