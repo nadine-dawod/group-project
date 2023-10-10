@@ -1,4 +1,72 @@
-/*test*/
+/* Menu Styles */
+.menu{
+    margin: 70px 30px 50px 30px;
+    font-family: 'Vollkorn', serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.menu__heading{
+    font-family: 'Lilita One', cursive;
+    font-size: large;
+}
+
+.menu__heading__fish h2,
+.menu__heading__seafood h2,
+.menu__heading__dessert h2{
+    font-family: 'Bree Serif', serif;
+    margin-top: 60px;
+}
+
+.menu__content__fish {
+    line-height: 2;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    max-width:700px;
+    width:100%; 
+}
+
+.menu__content__seafood {
+    line-height: 2;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    max-width:700px;
+    width:100%; 
+}
+
+.menu__content__dessert {
+    line-height: 2;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    max-width:700px;
+    width:100%;
+}
+
+/*gallery  */
+
+.menu__slider{
+    margin-top: 100px;
+    margin-bottom: -50px;
+    display: flex;
+    justify-self: center;
+    overflow: scroll;
+}
+
+ img{
+    width: 400px;
+    height: auto;
+    margin-right: 5px;
+    overflow: hidden;
+ }
+
+
 /* Footer Styles */
 footer {
     max-width: 1500px;
@@ -30,6 +98,7 @@ footer {
     text-align: center;
     line-height: 2;
     color: black;
+    font-family: 'Vollkorn', serif;
 }
 
 .footer__news-form {
@@ -41,7 +110,7 @@ footer {
 .footer__heading{
     color: black;
     font-weight: bold;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
 }
 
 .footer__news-form__label--email {
@@ -56,6 +125,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 14px;
+    font-family: 'Vollkorn', serif;
 }
 
 .footer__news-form__btn--send[type="submit"] {
@@ -66,6 +136,7 @@ footer {
     cursor: pointer;
     font-size: 14px;  
     background-color: rgba(55, 131, 202, 0.4);
+    font-family: 'Vollkorn', serif;
 }
 
 .footer__news-form__btn--send[type="submit"]:hover {
