@@ -1,6 +1,7 @@
 body {
-    max-width: 1440px;
+    max-width: 1500px;
     width: 100%;
+    min-height: 1200px;
     background-color: rgba(255, 255, 255, 1);
     margin: auto;
 }
@@ -25,6 +26,7 @@ header {
 .header__nav__list__item {
     color: rgb(0, 0, 0);
     padding: 20px;
+    font-size: 28px;
 }
 
 
@@ -53,7 +55,7 @@ h2 {
 
 .landing__main__p {
     font-family: 'Vollkorn', serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: 0px;
     text-align: center;
@@ -77,33 +79,47 @@ p {
 
 /* ======= LANDINGPAGE - CARDS: PLACEMENT/GENERAL/HOVER STYLING ======*/
 
+.landing__presentation {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .landing__cards {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.landing__cards__card1, .landing__cards__card2, .landing__cards__card3 {
-    width: 600px;
+
+.landing__cards__card1, .landing__cards__card3 {
+    min-width: 600px;
+    width: 100%;
     border: solid 10px #3783ca;
     margin: 10px;
     text-align: center;
     cursor: pointer;
+    margin-bottom: 45px;
 }
 
-.landing__cards__card1:hover, .landing__cards__card2:hover, .landing__cards__card3:hover {
+.landing__cards__card1:hover, .landing__cards__card3:hover {
     border: solid 10px black;
     color: #3783ca;
 }
 
-.landing__cards__card1__link, .landing__cards__card2__link, .landing__cards__card3__link {
+.landing__cards__card1__link, .landing__cards__card3__link {
     text-decoration: none;
     color: black;
 
 }
-=======
+
+.landing__img {
+    display: flex;
+    align-items: center;
+}
+
 /* Footer Styles */
 footer {
-    max-width: 1500px;
+    max-width: 1800px;
     width: 100%;
     min-height: 100px;
     margin: auto;
@@ -143,7 +159,7 @@ footer {
 .footer__heading{
     color: black;
     font-weight: bold;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
 }
 
 .footer__news-form__label--email {
@@ -168,6 +184,8 @@ footer {
     cursor: pointer;
     font-size: 14px;  
     background-color: rgba(55, 131, 202, 0.4);
+    width: 125px;
+    height: 50px;
 }
 
 .footer__news-form__btn--send[type="submit"]:hover {

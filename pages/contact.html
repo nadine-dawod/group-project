@@ -8,38 +8,37 @@
     <title>Contact Us</title>
 </head>
 <body>
-    
-    <header>       
-        <svg class="header__logo">
-            <use class="header__logo__fishhand" xlink:href="images/logo-fishhand.svg#logo-fishhand" alt="logo"></use>
-        </svg>
-        <nav>
-            <ul class="header__nav__list">
-                <li><a class="header__nav__list__item" href="pages/menu.html">MENU & FOOD GALLERY</a></li>                   
-                <li><a class="header__nav__list__item" href="pages/food-story.html">OUR FOOD STORY</a></li>
-                <li><a class="header__nav__list__item" href="pages/contact.html">BOOK A TABLE & CONTACT US</a></li>
-            </ul>
-        </nav>            
-    </header>
-    
-    <main>
-    main section
+
+        <header>  
+            <a href="../index.html">   
+                <svg class="header__logo">
+                    <use class="header__logo__fishhand" xlink:href="../images/logo-fishhand.svg#logo-fishhand" alt="logo"></use>
+                </svg>
+            </a>
+            <nav>
+                <ul class="header__nav__list">
+                    <li><a class="header__nav__list__item" href="./menu.html">MENU & FOOD GALLERY</a></li>                   
+                    <li><a class="header__nav__list__item" href="./contact.html">BOOK A TABLE & CONTACT US</a></li>
+                </ul>
+            </nav>            
+        </header>
+
+        <main>
+
+            <div class="photo-section__img">
+                <img src="/images/contactpage.jpeg" alt="fried fish and eggplant on cutting board">
+            </div>
+
+            <div class="contact-form">
+                <form name="contact-form">
+                    <div class="contact-form__name"><input type="text" placeholder="Name"></div>
+                    <div class="contact-form__email"><input type="email" placeholder="E-mail"></div>
+                    <div class="contact-form__message"><textarea name="text" cols="50" rows="15" placeholder="Message"></textarea>
+                        <button class="form__btn--submit" form="contact-form" type="submit">SEND</button></div>
+                </form>
+                
+            </div>
     </main>
-
-        <div class="photo-section__img">
-            <img src="/images/contactpage.jpeg" alt="fried fish and eggplant on cutting board">
-        </div>
-
-        <div class="contact-form">
-            <form name="contact-form">
-                <div class="contact-form__name"><input type="text" placeholder="Name"></div>
-                <div class="contact-form__email"><input type="email" placeholder="E-mail"></div>
-                <div class="contact-form__message"><textarea name="text" cols="50" rows="15" placeholder="Message"></textarea>
-                    <button class="form__btn--submit" form="contact-form" type="submit">Send</button></div>
-            </form>
-            
-        </div>
-
 
 
 

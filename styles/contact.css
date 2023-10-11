@@ -1,10 +1,13 @@
-main {
-    max-width: 1200px;
+body {
+    max-width: 1500px;
     width: 100%;
-    max-height: 100vh;
-    height: 100%;
-/*     display: flex;
-    flex-direction: column; */
+    min-height: 1200px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
+
+main {
+    padding: 45px;
 }
 
 img {
@@ -53,14 +56,28 @@ input::placeholder, textarea::placeholder {
 }
 
 
-button {
+.form__btn--submit {
+    border: 1px solid #444;
+    color: rgba(000, 000, 000);
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;  
+    background-color: rgba(55, 131, 202, 0.4);
     width: 125px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0, 0.7);
-    border-radius: 5px;
-    position: relative;
-    left: 50px;
+}
+
+.form__btn--submit:hover {
+    background-color: none;
+    border: 1px solid  rgba(55, 131, 202, 0.4);
+    cursor: auto; 
+}
+
+.form__btn--submit:active {
+    background-color: rgba(55, 131, 202, 0.4);
+    border: none;
+    cursor: auto; 
 }
 
 /* ======= HEADER: PLACEMENT/SIZE/GENERAL STYLING ======*/
@@ -83,11 +100,12 @@ header {
 .header__nav__list__item {
     color: rgb(0, 0, 0);
     padding: 20px;
+    font-size: 28px;
 }
 
 /* Footer Styles */
 footer {
-    max-width: 1500px;
+    max-width: 1800px;
     width: 100%;
     min-height: 100px;
     margin: auto;
@@ -126,7 +144,7 @@ footer {
 .footer__heading{
     color: rgba(000, 000, 000);
     font-weight: bold;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
 }
 
 .footer__news-form__label--email {
@@ -143,6 +161,10 @@ footer {
     font-size: 14px;
 }
 
+.footer__news-form__input--email[type="email"]::placeholder {
+    color: black;
+}
+
 .footer__news-form__btn--send[type="submit"] {
     border: 1px solid #444;
     color: rgba(000, 000, 000);
@@ -151,6 +173,8 @@ footer {
     cursor: pointer;
     font-size: 14px;  
     background-color: rgba(55, 131, 202, 0.4);
+    width: 125px;
+    height: 50px;
 }
 
 .footer__news-form__btn--send[type="submit"]:hover {

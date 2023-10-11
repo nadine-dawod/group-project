@@ -1,7 +1,14 @@
+body {
+    max-width: 1500px;
+    width: 100%;
+    min-height: 1200px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
 
 /* Menu Styles */
-.menu{
-    margin: 70px 30px 50px 30px;
+.menu {
+    margin: auto;
     font-family: 'Vollkorn', serif;
     width: 100%;
     height: auto;
@@ -21,11 +28,11 @@
 .menu__heading__dessert h2{
     font-family: 'Bree Serif', serif;
     margin-top: 60px;
+    font-size: 25px;
 }
 
 .menu__content__fish {
     line-height: 2;
-    font-style: italic;
     display: flex;
     flex-direction: column;
     max-width:700px;
@@ -34,7 +41,6 @@
 
 .menu__content__seafood {
     line-height: 2;
-    font-style: italic;
     display: flex;
     flex-direction: column;
     max-width:700px;
@@ -43,7 +49,6 @@
 
 .menu__content__dessert {
     line-height: 2;
-    font-style: italic;
     display: flex;
     flex-direction: column;
     max-width:700px;
@@ -53,18 +58,16 @@
 /*gallery  */
 
 .menu__slider{
+    width: 100%;
     margin-top: 100px;
-    margin-bottom: -50px;
     display: flex;
-    justify-self: center;
-    overflow: scroll;
+    justify-content: flex-start;
+    overflow: hidden;
 }
 
- img{
+ img {
     width: 400px;
     height: auto;
-    margin-right: 5px;
-    overflow: hidden;
  }
 
 
@@ -88,11 +91,12 @@ header {
 .header__nav__list__item {
     color: rgb(0, 0, 0);
     padding: 20px;
+    font-size: 28px;
 }
 
 /* Footer Styles */
 footer {
-    max-width: 1500px;
+    max-width: 1800px;
     width: 100%;
     min-height: 100px;
     margin: auto;
@@ -160,6 +164,8 @@ footer {
     font-size: 14px;  
     background-color: rgba(55, 131, 202, 0.4);
     font-family: 'Vollkorn', serif;
+    width: 125px;
+    height: 50px;
 }
 
 .footer__news-form__btn--send[type="submit"]:hover {
