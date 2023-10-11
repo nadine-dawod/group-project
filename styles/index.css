@@ -29,6 +29,10 @@ header {
     font-size: 28px;
 }
 
+.header__nav__list__item:hover {
+    color: #3783ca;
+}
+
 
 /* ======= LANDINGPAGE - MAIN: PLACEMENT/SIZE/GENERAL STYLING ======*/
 
@@ -74,6 +78,7 @@ p {
     width: 600px;
     max-height: auto;
     margin: 20px;
+    padding: 20px;
 }
 
 
